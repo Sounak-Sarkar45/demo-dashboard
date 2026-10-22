@@ -1,0 +1,13 @@
+{
+  "install": "npm ci",
+  "build": "npm run build",
+  "start": "npm run start",
+  "port": 3000,
+  "readyPath": "/",
+  "env": { "NODE_ENV": "production" },
+  "pages": [
+    { "name": "Home", "path": "/" },
+    { "name": "Dashboard", "path": "/dashboard" }
+  ],
+  "mask": ["[data-testid=avatar]"]
+}
