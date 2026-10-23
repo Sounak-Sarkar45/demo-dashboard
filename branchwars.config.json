@@ -9,5 +9,6 @@
     { "name": "Home", "path": "/" },
     { "name": "Dashboard", "path": "/dashboard" }
   ],
-  "mask": ["[data-testid=avatar]"]
+  "mask": ["[data-testid=avatar]"],
+  "tests": "npx playwright test"
 }
