@@ -43,3 +43,6 @@ export function renderDashboard(): string {
     </section>
   `;
 }
+
+// Deliberate build error so BranchWars can show a failure on one side.
+export const broken = ;
