@@ -37,7 +37,7 @@ export function renderDashboard(): string {
       <div>
         <div class="title-row">
           <h1>Dashboard</h1>
-          <button id="export" class="button" data-testid="export">Export</button>
+          <button id="export-button" class="button" data-testid="export">Export</button>
         </div>
         <p class="muted">Last updated ${updated}</p>
       </div>
