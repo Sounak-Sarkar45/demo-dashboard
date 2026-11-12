@@ -11,7 +11,7 @@ function exportCsv(): void {
 }
 
 export function renderDashboard(): string {
-  queueMicrotask(() => document.querySelector("#export")?.addEventListener("click", exportCsv));
+  queueMicrotask(() => document.querySelector("#export-button")?.addEventListener("click", exportCsv));
   const updated = new Date().toUTCString();
 
   return `
