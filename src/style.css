@@ -41,3 +41,8 @@ a { color: inherit; }
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #eef0f3; }
 th { color: #5b6475; font-weight: 600; font-size: 13px; }
+
+/* Narrow screens: tighter header. (Deliberate bug for BranchWars: hides Export on phones.) */
+@media (max-width: 600px) {
+  .page-header .button { display: none; }
+}
