@@ -10,5 +10,9 @@
     { "name": "Dashboard", "path": "/dashboard" }
   ],
   "mask": ["[data-testid=avatar]"],
-  "tests": "npx playwright test"
+  "tests": "npx playwright test",
+  "viewports": [
+    { "name": "desktop", "width": 1280, "height": 800 },
+    { "name": "mobile", "width": 390, "height": 844, "mobile": true }
+  ]
 }
