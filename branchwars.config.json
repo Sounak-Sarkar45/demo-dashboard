@@ -10,5 +10,12 @@
     { "name": "Dashboard", "path": "/dashboard" }
   ],
   "mask": ["[data-testid=avatar]"],
-  "tests": "npx playwright test"
+  "tests": "npx playwright test",
+  "flows": [
+    {
+      "name": "Export",
+      "path": "/dashboard",
+      "steps": [{ "click": "[data-testid=export]" }, { "capture": "After export" }]
+    }
+  ]
 }
